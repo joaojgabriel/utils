@@ -13,7 +13,7 @@ echo '<!DOCTYPE html>
   <body></body>
 </html>' > dist/index.html
 echo "import './style.css'" > src/index.js
-echo '/* http://meyerweb.com/eric/tools/css/reset/ 
+echo "/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -60,7 +60,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}' > src/style.css
+}" > src/style.css
 git init
 echo 'node_modules
 package-locks.json
