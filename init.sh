@@ -63,7 +63,7 @@ table {
 }" > src/style.css
 git init
 echo 'node_modules
-package-locks.json
+package-lock.json
 .vscode' > .gitignore  
 git add .
 git commit -m "First commit"
